@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background: rgba(99, 15, 118, 0.161);
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro programa</h1>
+
+    <p>Calculando a Média</p>
+
+    <input type="number" name="nota1" id="nota1">
+    <input type="number" name="nota2" id="nota2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="resultado">Resultado</div>
+
+    <script> 
+        function somar() {
+            var n1 = window.document.getElementById('nota1')
+            var n2 = window.document.getElementById('nota2')
+            var resultado = window.document.getElementById('resultado')
+            var n1 = Number(n1.value)
+            var n2 = Number(n2.value)
+            var resultadofinal = (n1 + n2) / 2
+            resultado.innerHTML = `A media entre a nota ${n1} e a nota ${n2} é ${resultadofinal}`
+        }
+    </script>
+</body>
+</html>

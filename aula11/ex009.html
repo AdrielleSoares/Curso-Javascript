@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descobrindo sua Nascionalidade</title>
+    <style>
+        body{
+            background: brown;
+            color: aliceblue;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Voçê é Brasileiro ou Estrangeiro!</h1>
+
+    Informe qual País voçê nasceu :<br> 
+    <input type="text" name="pais" id="pais">
+
+    <input type="button" value="verificar" onclick="verificar()">
+
+    <div id="res"></div>
+
+        <script>
+            function verificar(){
+                var p = window.document.getElementById('pais')
+                var res = window.document.getElementById('res')
+                res.innerHTML = `Voce nasceu no ${p.value}.`
+                if (p.value == ("Brasil")) {
+                    res.innerHTML = `Voce nasceu no País: ${p.value} entao e brasileiro!`
+                } else{
+                    res.innerHTML = `Voce nasceu no País: ${p.value} entao e estrangeiro!`
+                }
+                
+            }    
+                
+                
+            
+
+            
+        </script>
+</body>
+</html>

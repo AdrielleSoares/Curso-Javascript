@@ -1,0 +1,90 @@
+1970 - ARPANET
+1993 - CERN - WWW
+1995 - JAVASCRIPT
+1997 - ECMA SCRIPT - JAVASCRIPT PRADONIZADA
+2002 - MOZILLA 
+2008 - GOOGLE GROME
+2009 - V8
+2010 - NODE JS - RODA JAVASCRIPT FORA DO NAVEGADOR
+------------------------------------
+
+     TIPOS DE JANELA
+
+* window.alert ("Minha primeira mensagem") = exibir alerta na tela.
+
+*window.confirm("Esta gostando de javascript?")
+
+*window.prompt("Qual o seu nome?")
+
+----------------------------------------
+COMENTARIOS EM JAVASCRIPT:
+
+ // - uma unica linha comentada
+ /* */ - mais de uma linha comentada
+-----------------------------------------
+Variaveis: Identificadores
+
+*var = variaveis ou tambem a palavra *let
+
+* Podem começar com letra,$ ou _ 
+
+* Não podem começar com numeros
+
+*E possivel usar letras ou numeros
+
+* E possivel usar acentos e simbolos
+
+*Não podem conter espaços
+
+*Não podem ser palavras reservadas
+------
+> Maiusculas e minusculas fazem a diferença.
+>Tente escolher nomes coerentes para as variaveis.
+------
+>> typeof = saber qual o tipo da variavel<< 
+
+5 18 -12 = number
+0.5 -15.9 3.14 8.0  = number
+>>> Infinity - NaN
+
+"Google"= string
+'Javascript' = string
+'Maria'  = string
+
+True = boolean
+False = boolean
+
+> null
+>undefined
+>object = array
+>function
+
+-----------------------------------------------
+variaveis: 
+
+
+var nome = window.prompt("Qual o seu nome?")
+
+window.alert('E um grande prazer em te conhecer; ' + nome + ' ! ') // sinal de + significa = concatenação 
+
+converter --> string para  numero:
+
+Number.parseInt(n)
+Number.parseFloat(n)
+Number(n) o proprio javascript decide se e inteiro ou nao
+
+converter --> numero para string:
+
+String(n)
+n.toString()
+
+-> Formatando strings
+usa template string $()
+
+`O aluno ${nome} com ${idade} anos tirou a  nota ${nota}`.
+
+-----------------------------------------------
+
+
+
+
